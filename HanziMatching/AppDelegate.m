@@ -2,7 +2,7 @@
 //  AppDelegate.m
 //  HanziMatching
 //
-//  Created by Hao Zheng on 4/3/15.
+//  Created by Hao Zheng on 4/7/15.
 //  Copyright (c) 2015 Hao Zheng. All rights reserved.
 //
 

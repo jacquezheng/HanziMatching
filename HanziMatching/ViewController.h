@@ -1,14 +1,15 @@
 //
-//  GameViewController.h
+//  ViewController.h
 //  HanziMatching
 //
-
+//  Created by Hao Zheng on 4/7/15.
 //  Copyright (c) 2015 Hao Zheng. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
-#import <SceneKit/SceneKit.h>
 
-@interface GameViewController : UIViewController
+@interface ViewController : UIViewController
+
 
 @end
+

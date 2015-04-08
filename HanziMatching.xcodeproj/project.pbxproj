@@ -7,52 +7,59 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4FB1CC5C1ACEE6B500A42904 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FB1CC5B1ACEE6B500A42904 /* main.m */; };
-		4FB1CC5F1ACEE6B500A42904 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FB1CC5E1ACEE6B500A42904 /* AppDelegate.m */; };
-		4FB1CC611ACEE6B500A42904 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 4FB1CC601ACEE6B500A42904 /* art.scnassets */; };
-		4FB1CC641ACEE6B500A42904 /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FB1CC631ACEE6B500A42904 /* GameViewController.m */; };
-		4FB1CC671ACEE6B500A42904 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4FB1CC651ACEE6B500A42904 /* Main.storyboard */; };
-		4FB1CC691ACEE6B500A42904 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4FB1CC681ACEE6B500A42904 /* Images.xcassets */; };
-		4FB1CC6C1ACEE6B500A42904 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4FB1CC6A1ACEE6B500A42904 /* LaunchScreen.xib */; };
-		4FB1CC781ACEE6B500A42904 /* HanziMatchingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FB1CC771ACEE6B500A42904 /* HanziMatchingTests.m */; };
+		4FDBE1E01AD4B8EF00EB54EB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FDBE1DF1AD4B8EF00EB54EB /* main.m */; };
+		4FDBE1E31AD4B8EF00EB54EB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FDBE1E21AD4B8EF00EB54EB /* AppDelegate.m */; };
+		4FDBE1E61AD4B8EF00EB54EB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FDBE1E51AD4B8EF00EB54EB /* ViewController.m */; };
+		4FDBE1E91AD4B8EF00EB54EB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4FDBE1E71AD4B8EF00EB54EB /* Main.storyboard */; };
+		4FDBE1EB1AD4B8EF00EB54EB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4FDBE1EA1AD4B8EF00EB54EB /* Images.xcassets */; };
+		4FDBE1EE1AD4B8EF00EB54EB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4FDBE1EC1AD4B8EF00EB54EB /* LaunchScreen.xib */; };
+		4FDBE1FA1AD4B8EF00EB54EB /* HanziMatchingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FDBE1F91AD4B8EF00EB54EB /* HanziMatchingTests.m */; };
+		4FDBE2181AD4C79600EB54EB /* Board.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4FDBE2151AD4C79600EB54EB /* Board.mm */; };
+		4FDBE2191AD4C79600EB54EB /* Piece.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4FDBE2171AD4C79600EB54EB /* Piece.mm */; };
+		4FDBE21D1AD59D6F00EB54EB /* Game.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4FDBE21C1AD59D6F00EB54EB /* Game.mm */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		4FB1CC721ACEE6B500A42904 /* PBXContainerItemProxy */ = {
+		4FDBE1F41AD4B8EF00EB54EB /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 4FB1CC4E1ACEE6B500A42904 /* Project object */;
+			containerPortal = 4FDBE1D21AD4B8EF00EB54EB /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 4FB1CC551ACEE6B500A42904;
+			remoteGlobalIDString = 4FDBE1D91AD4B8EF00EB54EB;
 			remoteInfo = HanziMatching;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		4FB1CC561ACEE6B500A42904 /* HanziMatching.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HanziMatching.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		4FB1CC5A1ACEE6B500A42904 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4FB1CC5B1ACEE6B500A42904 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		4FB1CC5D1ACEE6B500A42904 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		4FB1CC5E1ACEE6B500A42904 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		4FB1CC601ACEE6B500A42904 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
-		4FB1CC621ACEE6B500A42904 /* GameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
-		4FB1CC631ACEE6B500A42904 /* GameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
-		4FB1CC661ACEE6B500A42904 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		4FB1CC681ACEE6B500A42904 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		4FB1CC6B1ACEE6B500A42904 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		4FB1CC711ACEE6B500A42904 /* HanziMatchingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HanziMatchingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		4FB1CC761ACEE6B500A42904 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4FB1CC771ACEE6B500A42904 /* HanziMatchingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HanziMatchingTests.m; sourceTree = "<group>"; };
+		4FDBE1DA1AD4B8EF00EB54EB /* HanziMatching.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HanziMatching.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4FDBE1DE1AD4B8EF00EB54EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4FDBE1DF1AD4B8EF00EB54EB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4FDBE1E11AD4B8EF00EB54EB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4FDBE1E21AD4B8EF00EB54EB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4FDBE1E41AD4B8EF00EB54EB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4FDBE1E51AD4B8EF00EB54EB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4FDBE1E81AD4B8EF00EB54EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4FDBE1EA1AD4B8EF00EB54EB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		4FDBE1ED1AD4B8EF00EB54EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		4FDBE1F31AD4B8EF00EB54EB /* HanziMatchingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HanziMatchingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4FDBE1F81AD4B8EF00EB54EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4FDBE1F91AD4B8EF00EB54EB /* HanziMatchingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HanziMatchingTests.m; sourceTree = "<group>"; };
+		4FDBE2141AD4C79600EB54EB /* Board.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Board.h; path = HanziMatching/Logic/Board.h; sourceTree = "<group>"; };
+		4FDBE2151AD4C79600EB54EB /* Board.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = Board.mm; path = HanziMatching/Logic/Board.mm; sourceTree = "<group>"; };
+		4FDBE2161AD4C79600EB54EB /* Piece.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Piece.h; path = HanziMatching/Logic/Piece.h; sourceTree = "<group>"; };
+		4FDBE2171AD4C79600EB54EB /* Piece.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = Piece.mm; path = HanziMatching/Logic/Piece.mm; sourceTree = "<group>"; };
+		4FDBE21B1AD59D6F00EB54EB /* Game.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Game.h; path = HanziMatching/Logic/Game.h; sourceTree = "<group>"; };
+		4FDBE21C1AD59D6F00EB54EB /* Game.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = Game.mm; path = HanziMatching/Logic/Game.mm; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		4FB1CC531ACEE6B500A42904 /* Frameworks */ = {
+		4FDBE1D71AD4B8EF00EB54EB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4FB1CC6E1ACEE6B500A42904 /* Frameworks */ = {
+		4FDBE1F01AD4B8EF00EB54EB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -62,76 +69,114 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		4FB1CC4D1ACEE6B500A42904 = {
+		4FDBE1D11AD4B8EF00EB54EB = {
 			isa = PBXGroup;
 			children = (
-				4FB1CC581ACEE6B500A42904 /* HanziMatching */,
-				4FB1CC741ACEE6B500A42904 /* HanziMatchingTests */,
-				4FB1CC571ACEE6B500A42904 /* Products */,
+				4FDBE1DC1AD4B8EF00EB54EB /* HanziMatching */,
+				4FDBE1F61AD4B8EF00EB54EB /* HanziMatchingTests */,
+				4FDBE1DB1AD4B8EF00EB54EB /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		4FB1CC571ACEE6B500A42904 /* Products */ = {
+		4FDBE1DB1AD4B8EF00EB54EB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				4FB1CC561ACEE6B500A42904 /* HanziMatching.app */,
-				4FB1CC711ACEE6B500A42904 /* HanziMatchingTests.xctest */,
+				4FDBE1DA1AD4B8EF00EB54EB /* HanziMatching.app */,
+				4FDBE1F31AD4B8EF00EB54EB /* HanziMatchingTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		4FB1CC581ACEE6B500A42904 /* HanziMatching */ = {
+		4FDBE1DC1AD4B8EF00EB54EB /* HanziMatching */ = {
 			isa = PBXGroup;
 			children = (
-				4FB1CC5D1ACEE6B500A42904 /* AppDelegate.h */,
-				4FB1CC5E1ACEE6B500A42904 /* AppDelegate.m */,
-				4FB1CC601ACEE6B500A42904 /* art.scnassets */,
-				4FB1CC621ACEE6B500A42904 /* GameViewController.h */,
-				4FB1CC631ACEE6B500A42904 /* GameViewController.m */,
-				4FB1CC651ACEE6B500A42904 /* Main.storyboard */,
-				4FB1CC681ACEE6B500A42904 /* Images.xcassets */,
-				4FB1CC6A1ACEE6B500A42904 /* LaunchScreen.xib */,
-				4FB1CC591ACEE6B500A42904 /* Supporting Files */,
+				4FDBE21A1AD4C79F00EB54EB /* Logic */,
+				4FDBE2041AD4BA0E00EB54EB /* Assets */,
+				4FDBE1DD1AD4B8EF00EB54EB /* Supporting Files */,
+				4FDBE1E11AD4B8EF00EB54EB /* AppDelegate.h */,
+				4FDBE1E21AD4B8EF00EB54EB /* AppDelegate.m */,
+				4FDBE1E41AD4B8EF00EB54EB /* ViewController.h */,
+				4FDBE1E51AD4B8EF00EB54EB /* ViewController.m */,
+				4FDBE1E71AD4B8EF00EB54EB /* Main.storyboard */,
+				4FDBE1EA1AD4B8EF00EB54EB /* Images.xcassets */,
+				4FDBE1EC1AD4B8EF00EB54EB /* LaunchScreen.xib */,
 			);
 			path = HanziMatching;
 			sourceTree = "<group>";
 		};
-		4FB1CC591ACEE6B500A42904 /* Supporting Files */ = {
+		4FDBE1DD1AD4B8EF00EB54EB /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				4FB1CC5A1ACEE6B500A42904 /* Info.plist */,
-				4FB1CC5B1ACEE6B500A42904 /* main.m */,
+				4FDBE1DE1AD4B8EF00EB54EB /* Info.plist */,
+				4FDBE1DF1AD4B8EF00EB54EB /* main.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		4FB1CC741ACEE6B500A42904 /* HanziMatchingTests */ = {
+		4FDBE1F61AD4B8EF00EB54EB /* HanziMatchingTests */ = {
 			isa = PBXGroup;
 			children = (
-				4FB1CC771ACEE6B500A42904 /* HanziMatchingTests.m */,
-				4FB1CC751ACEE6B500A42904 /* Supporting Files */,
+				4FDBE1F91AD4B8EF00EB54EB /* HanziMatchingTests.m */,
+				4FDBE1F71AD4B8EF00EB54EB /* Supporting Files */,
 			);
 			path = HanziMatchingTests;
 			sourceTree = "<group>";
 		};
-		4FB1CC751ACEE6B500A42904 /* Supporting Files */ = {
+		4FDBE1F71AD4B8EF00EB54EB /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				4FB1CC761ACEE6B500A42904 /* Info.plist */,
+				4FDBE1F81AD4B8EF00EB54EB /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4FDBE2041AD4BA0E00EB54EB /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				4FDBE2061AD4BA1A00EB54EB /* Images */,
+				4FDBE2051AD4BA1400EB54EB /* Fonts */,
+			);
+			name = Assets;
+			sourceTree = "<group>";
+		};
+		4FDBE2051AD4BA1400EB54EB /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Fonts;
+			sourceTree = "<group>";
+		};
+		4FDBE2061AD4BA1A00EB54EB /* Images */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		4FDBE21A1AD4C79F00EB54EB /* Logic */ = {
+			isa = PBXGroup;
+			children = (
+				4FDBE2141AD4C79600EB54EB /* Board.h */,
+				4FDBE2151AD4C79600EB54EB /* Board.mm */,
+				4FDBE21B1AD59D6F00EB54EB /* Game.h */,
+				4FDBE21C1AD59D6F00EB54EB /* Game.mm */,
+				4FDBE2161AD4C79600EB54EB /* Piece.h */,
+				4FDBE2171AD4C79600EB54EB /* Piece.mm */,
+			);
+			name = Logic;
+			path = ..;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		4FB1CC551ACEE6B500A42904 /* HanziMatching */ = {
+		4FDBE1D91AD4B8EF00EB54EB /* HanziMatching */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4FB1CC7B1ACEE6B500A42904 /* Build configuration list for PBXNativeTarget "HanziMatching" */;
+			buildConfigurationList = 4FDBE1FD1AD4B8EF00EB54EB /* Build configuration list for PBXNativeTarget "HanziMatching" */;
 			buildPhases = (
-				4FB1CC521ACEE6B500A42904 /* Sources */,
-				4FB1CC531ACEE6B500A42904 /* Frameworks */,
-				4FB1CC541ACEE6B500A42904 /* Resources */,
+				4FDBE1D61AD4B8EF00EB54EB /* Sources */,
+				4FDBE1D71AD4B8EF00EB54EB /* Frameworks */,
+				4FDBE1D81AD4B8EF00EB54EB /* Resources */,
 			);
 			buildRules = (
 			);
@@ -139,46 +184,46 @@
 			);
 			name = HanziMatching;
 			productName = HanziMatching;
-			productReference = 4FB1CC561ACEE6B500A42904 /* HanziMatching.app */;
+			productReference = 4FDBE1DA1AD4B8EF00EB54EB /* HanziMatching.app */;
 			productType = "com.apple.product-type.application";
 		};
-		4FB1CC701ACEE6B500A42904 /* HanziMatchingTests */ = {
+		4FDBE1F21AD4B8EF00EB54EB /* HanziMatchingTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4FB1CC7E1ACEE6B500A42904 /* Build configuration list for PBXNativeTarget "HanziMatchingTests" */;
+			buildConfigurationList = 4FDBE2001AD4B8EF00EB54EB /* Build configuration list for PBXNativeTarget "HanziMatchingTests" */;
 			buildPhases = (
-				4FB1CC6D1ACEE6B500A42904 /* Sources */,
-				4FB1CC6E1ACEE6B500A42904 /* Frameworks */,
-				4FB1CC6F1ACEE6B500A42904 /* Resources */,
+				4FDBE1EF1AD4B8EF00EB54EB /* Sources */,
+				4FDBE1F01AD4B8EF00EB54EB /* Frameworks */,
+				4FDBE1F11AD4B8EF00EB54EB /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				4FB1CC731ACEE6B500A42904 /* PBXTargetDependency */,
+				4FDBE1F51AD4B8EF00EB54EB /* PBXTargetDependency */,
 			);
 			name = HanziMatchingTests;
 			productName = HanziMatchingTests;
-			productReference = 4FB1CC711ACEE6B500A42904 /* HanziMatchingTests.xctest */;
+			productReference = 4FDBE1F31AD4B8EF00EB54EB /* HanziMatchingTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		4FB1CC4E1ACEE6B500A42904 /* Project object */ = {
+		4FDBE1D21AD4B8EF00EB54EB /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0620;
 				ORGANIZATIONNAME = "Hao Zheng";
 				TargetAttributes = {
-					4FB1CC551ACEE6B500A42904 = {
+					4FDBE1D91AD4B8EF00EB54EB = {
 						CreatedOnToolsVersion = 6.2;
 					};
-					4FB1CC701ACEE6B500A42904 = {
+					4FDBE1F21AD4B8EF00EB54EB = {
 						CreatedOnToolsVersion = 6.2;
-						TestTargetID = 4FB1CC551ACEE6B500A42904;
+						TestTargetID = 4FDBE1D91AD4B8EF00EB54EB;
 					};
 				};
 			};
-			buildConfigurationList = 4FB1CC511ACEE6B500A42904 /* Build configuration list for PBXProject "HanziMatching" */;
+			buildConfigurationList = 4FDBE1D51AD4B8EF00EB54EB /* Build configuration list for PBXProject "HanziMatching" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -186,30 +231,29 @@
 				en,
 				Base,
 			);
-			mainGroup = 4FB1CC4D1ACEE6B500A42904;
-			productRefGroup = 4FB1CC571ACEE6B500A42904 /* Products */;
+			mainGroup = 4FDBE1D11AD4B8EF00EB54EB;
+			productRefGroup = 4FDBE1DB1AD4B8EF00EB54EB /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				4FB1CC551ACEE6B500A42904 /* HanziMatching */,
-				4FB1CC701ACEE6B500A42904 /* HanziMatchingTests */,
+				4FDBE1D91AD4B8EF00EB54EB /* HanziMatching */,
+				4FDBE1F21AD4B8EF00EB54EB /* HanziMatchingTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		4FB1CC541ACEE6B500A42904 /* Resources */ = {
+		4FDBE1D81AD4B8EF00EB54EB /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4FB1CC6C1ACEE6B500A42904 /* LaunchScreen.xib in Resources */,
-				4FB1CC691ACEE6B500A42904 /* Images.xcassets in Resources */,
-				4FB1CC611ACEE6B500A42904 /* art.scnassets in Resources */,
-				4FB1CC671ACEE6B500A42904 /* Main.storyboard in Resources */,
+				4FDBE1E91AD4B8EF00EB54EB /* Main.storyboard in Resources */,
+				4FDBE1EE1AD4B8EF00EB54EB /* LaunchScreen.xib in Resources */,
+				4FDBE1EB1AD4B8EF00EB54EB /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4FB1CC6F1ACEE6B500A42904 /* Resources */ = {
+		4FDBE1F11AD4B8EF00EB54EB /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -219,47 +263,50 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		4FB1CC521ACEE6B500A42904 /* Sources */ = {
+		4FDBE1D61AD4B8EF00EB54EB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4FB1CC5F1ACEE6B500A42904 /* AppDelegate.m in Sources */,
-				4FB1CC641ACEE6B500A42904 /* GameViewController.m in Sources */,
-				4FB1CC5C1ACEE6B500A42904 /* main.m in Sources */,
+				4FDBE2181AD4C79600EB54EB /* Board.mm in Sources */,
+				4FDBE1E61AD4B8EF00EB54EB /* ViewController.m in Sources */,
+				4FDBE2191AD4C79600EB54EB /* Piece.mm in Sources */,
+				4FDBE21D1AD59D6F00EB54EB /* Game.mm in Sources */,
+				4FDBE1E31AD4B8EF00EB54EB /* AppDelegate.m in Sources */,
+				4FDBE1E01AD4B8EF00EB54EB /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4FB1CC6D1ACEE6B500A42904 /* Sources */ = {
+		4FDBE1EF1AD4B8EF00EB54EB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4FB1CC781ACEE6B500A42904 /* HanziMatchingTests.m in Sources */,
+				4FDBE1FA1AD4B8EF00EB54EB /* HanziMatchingTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		4FB1CC731ACEE6B500A42904 /* PBXTargetDependency */ = {
+		4FDBE1F51AD4B8EF00EB54EB /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 4FB1CC551ACEE6B500A42904 /* HanziMatching */;
-			targetProxy = 4FB1CC721ACEE6B500A42904 /* PBXContainerItemProxy */;
+			target = 4FDBE1D91AD4B8EF00EB54EB /* HanziMatching */;
+			targetProxy = 4FDBE1F41AD4B8EF00EB54EB /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		4FB1CC651ACEE6B500A42904 /* Main.storyboard */ = {
+		4FDBE1E71AD4B8EF00EB54EB /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				4FB1CC661ACEE6B500A42904 /* Base */,
+				4FDBE1E81AD4B8EF00EB54EB /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		4FB1CC6A1ACEE6B500A42904 /* LaunchScreen.xib */ = {
+		4FDBE1EC1AD4B8EF00EB54EB /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				4FB1CC6B1ACEE6B500A42904 /* Base */,
+				4FDBE1ED1AD4B8EF00EB54EB /* Base */,
 			);
 			name = LaunchScreen.xib;
 			sourceTree = "<group>";
@@ -267,7 +314,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		4FB1CC791ACEE6B500A42904 /* Debug */ = {
+		4FDBE1FB1AD4B8EF00EB54EB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -309,7 +356,7 @@
 			};
 			name = Debug;
 		};
-		4FB1CC7A1ACEE6B500A42904 /* Release */ = {
+		4FDBE1FC1AD4B8EF00EB54EB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -345,7 +392,7 @@
 			};
 			name = Release;
 		};
-		4FB1CC7C1ACEE6B500A42904 /* Debug */ = {
+		4FDBE1FE1AD4B8EF00EB54EB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -355,7 +402,7 @@
 			};
 			name = Debug;
 		};
-		4FB1CC7D1ACEE6B500A42904 /* Release */ = {
+		4FDBE1FF1AD4B8EF00EB54EB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -365,7 +412,7 @@
 			};
 			name = Release;
 		};
-		4FB1CC7F1ACEE6B500A42904 /* Debug */ = {
+		4FDBE2011AD4B8EF00EB54EB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -384,7 +431,7 @@
 			};
 			name = Debug;
 		};
-		4FB1CC801ACEE6B500A42904 /* Release */ = {
+		4FDBE2021AD4B8EF00EB54EB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -402,32 +449,34 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		4FB1CC511ACEE6B500A42904 /* Build configuration list for PBXProject "HanziMatching" */ = {
+		4FDBE1D51AD4B8EF00EB54EB /* Build configuration list for PBXProject "HanziMatching" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4FB1CC791ACEE6B500A42904 /* Debug */,
-				4FB1CC7A1ACEE6B500A42904 /* Release */,
+				4FDBE1FB1AD4B8EF00EB54EB /* Debug */,
+				4FDBE1FC1AD4B8EF00EB54EB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4FB1CC7B1ACEE6B500A42904 /* Build configuration list for PBXNativeTarget "HanziMatching" */ = {
+		4FDBE1FD1AD4B8EF00EB54EB /* Build configuration list for PBXNativeTarget "HanziMatching" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4FB1CC7C1ACEE6B500A42904 /* Debug */,
-				4FB1CC7D1ACEE6B500A42904 /* Release */,
+				4FDBE1FE1AD4B8EF00EB54EB /* Debug */,
+				4FDBE1FF1AD4B8EF00EB54EB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		4FB1CC7E1ACEE6B500A42904 /* Build configuration list for PBXNativeTarget "HanziMatchingTests" */ = {
+		4FDBE2001AD4B8EF00EB54EB /* Build configuration list for PBXNativeTarget "HanziMatchingTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4FB1CC7F1ACEE6B500A42904 /* Debug */,
-				4FB1CC801ACEE6B500A42904 /* Release */,
+				4FDBE2011AD4B8EF00EB54EB /* Debug */,
+				4FDBE2021AD4B8EF00EB54EB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 4FB1CC4E1ACEE6B500A42904 /* Project object */;
+	rootObject = 4FDBE1D21AD4B8EF00EB54EB /* Project object */;
 }

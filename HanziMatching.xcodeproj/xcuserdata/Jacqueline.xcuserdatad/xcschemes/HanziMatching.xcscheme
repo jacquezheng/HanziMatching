@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "4FB1CC551ACEE6B500A42904"
+               BlueprintIdentifier = "4FDBE1D91AD4B8EF00EB54EB"
                BuildableName = "HanziMatching.app"
                BlueprintName = "HanziMatching"
                ReferencedContainer = "container:HanziMatching.xcodeproj">
@@ -28,7 +28,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "4FB1CC701ACEE6B500A42904"
+               BlueprintIdentifier = "4FDBE1F21AD4B8EF00EB54EB"
                BuildableName = "HanziMatchingTests.xctest"
                BlueprintName = "HanziMatchingTests"
                ReferencedContainer = "container:HanziMatching.xcodeproj">
@@ -46,7 +46,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "4FB1CC701ACEE6B500A42904"
+               BlueprintIdentifier = "4FDBE1F21AD4B8EF00EB54EB"
                BuildableName = "HanziMatchingTests.xctest"
                BlueprintName = "HanziMatchingTests"
                ReferencedContainer = "container:HanziMatching.xcodeproj">
@@ -56,7 +56,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "4FB1CC551ACEE6B500A42904"
+            BlueprintIdentifier = "4FDBE1D91AD4B8EF00EB54EB"
             BuildableName = "HanziMatching.app"
             BlueprintName = "HanziMatching"
             ReferencedContainer = "container:HanziMatching.xcodeproj">
@@ -76,7 +76,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "4FB1CC551ACEE6B500A42904"
+            BlueprintIdentifier = "4FDBE1D91AD4B8EF00EB54EB"
             BuildableName = "HanziMatching.app"
             BlueprintName = "HanziMatching"
             ReferencedContainer = "container:HanziMatching.xcodeproj">
@@ -95,7 +95,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "4FB1CC551ACEE6B500A42904"
+            BlueprintIdentifier = "4FDBE1D91AD4B8EF00EB54EB"
             BuildableName = "HanziMatching.app"
             BlueprintName = "HanziMatching"
             ReferencedContainer = "container:HanziMatching.xcodeproj">
