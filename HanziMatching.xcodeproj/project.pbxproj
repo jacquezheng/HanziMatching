@@ -17,6 +17,11 @@
 		4FDBE2181AD4C79600EB54EB /* Board.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4FDBE2151AD4C79600EB54EB /* Board.mm */; };
 		4FDBE2191AD4C79600EB54EB /* Piece.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4FDBE2171AD4C79600EB54EB /* Piece.mm */; };
 		4FDBE21D1AD59D6F00EB54EB /* Game.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4FDBE21C1AD59D6F00EB54EB /* Game.mm */; };
+		F10C51621AD5A0AA00688882 /* BoardTests.mm in Sources */ = {isa = PBXBuildFile; fileRef = F10C515F1AD5A0AA00688882 /* BoardTests.mm */; };
+		F10C51631AD5A0AA00688882 /* GameTests.mm in Sources */ = {isa = PBXBuildFile; fileRef = F10C51601AD5A0AA00688882 /* GameTests.mm */; };
+		F10C51641AD5A0AA00688882 /* PieceTests.mm in Sources */ = {isa = PBXBuildFile; fileRef = F10C51611AD5A0AA00688882 /* PieceTests.mm */; };
+		F10C51681AD5A0FA00688882 /* Timer.mm in Sources */ = {isa = PBXBuildFile; fileRef = F10C51671AD5A0FA00688882 /* Timer.mm */; };
+		F10C516B1AD5A11300688882 /* TimerTests.mm in Sources */ = {isa = PBXBuildFile; fileRef = F10C516A1AD5A11300688882 /* TimerTests.mm */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +54,12 @@
 		4FDBE2171AD4C79600EB54EB /* Piece.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = Piece.mm; path = HanziMatching/Logic/Piece.mm; sourceTree = "<group>"; };
 		4FDBE21B1AD59D6F00EB54EB /* Game.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Game.h; path = HanziMatching/Logic/Game.h; sourceTree = "<group>"; };
 		4FDBE21C1AD59D6F00EB54EB /* Game.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = Game.mm; path = HanziMatching/Logic/Game.mm; sourceTree = "<group>"; };
+		F10C515F1AD5A0AA00688882 /* BoardTests.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = BoardTests.mm; path = ../../../Desktop/HanziMatching/HanziMatchingTests/BoardTests.mm; sourceTree = "<group>"; };
+		F10C51601AD5A0AA00688882 /* GameTests.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = GameTests.mm; path = ../../../Desktop/HanziMatching/HanziMatchingTests/GameTests.mm; sourceTree = "<group>"; };
+		F10C51611AD5A0AA00688882 /* PieceTests.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = PieceTests.mm; path = ../../../Desktop/HanziMatching/HanziMatchingTests/PieceTests.mm; sourceTree = "<group>"; };
+		F10C51661AD5A0FA00688882 /* Timer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Timer.h; path = ../../../Desktop/HanziMatching/HanziMatching/Timer.h; sourceTree = "<group>"; };
+		F10C51671AD5A0FA00688882 /* Timer.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = Timer.mm; path = ../../../Desktop/HanziMatching/HanziMatching/Timer.mm; sourceTree = "<group>"; };
+		F10C516A1AD5A11300688882 /* TimerTests.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = TimerTests.mm; path = ../../../Desktop/HanziMatching/HanziMatchingTests/TimerTests.mm; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +101,7 @@
 		4FDBE1DC1AD4B8EF00EB54EB /* HanziMatching */ = {
 			isa = PBXGroup;
 			children = (
+				F10C51651AD5A0E900688882 /* Tools */,
 				4FDBE21A1AD4C79F00EB54EB /* Logic */,
 				4FDBE2041AD4BA0E00EB54EB /* Assets */,
 				4FDBE1DD1AD4B8EF00EB54EB /* Supporting Files */,
@@ -116,6 +128,8 @@
 		4FDBE1F61AD4B8EF00EB54EB /* HanziMatchingTests */ = {
 			isa = PBXGroup;
 			children = (
+				F10C51691AD5A10000688882 /* ToolsTests */,
+				F10C515E1AD5A06A00688882 /* LogicTests */,
 				4FDBE1F91AD4B8EF00EB54EB /* HanziMatchingTests.m */,
 				4FDBE1F71AD4B8EF00EB54EB /* Supporting Files */,
 			);
@@ -165,6 +179,33 @@
 			);
 			name = Logic;
 			path = ..;
+			sourceTree = "<group>";
+		};
+		F10C515E1AD5A06A00688882 /* LogicTests */ = {
+			isa = PBXGroup;
+			children = (
+				F10C515F1AD5A0AA00688882 /* BoardTests.mm */,
+				F10C51601AD5A0AA00688882 /* GameTests.mm */,
+				F10C51611AD5A0AA00688882 /* PieceTests.mm */,
+			);
+			name = LogicTests;
+			sourceTree = "<group>";
+		};
+		F10C51651AD5A0E900688882 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				F10C51661AD5A0FA00688882 /* Timer.h */,
+				F10C51671AD5A0FA00688882 /* Timer.mm */,
+			);
+			name = Tools;
+			sourceTree = "<group>";
+		};
+		F10C51691AD5A10000688882 /* ToolsTests */ = {
+			isa = PBXGroup;
+			children = (
+				F10C516A1AD5A11300688882 /* TimerTests.mm */,
+			);
+			name = ToolsTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -273,6 +314,7 @@
 				4FDBE21D1AD59D6F00EB54EB /* Game.mm in Sources */,
 				4FDBE1E31AD4B8EF00EB54EB /* AppDelegate.m in Sources */,
 				4FDBE1E01AD4B8EF00EB54EB /* main.m in Sources */,
+				F10C51681AD5A0FA00688882 /* Timer.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,6 +322,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F10C51621AD5A0AA00688882 /* BoardTests.mm in Sources */,
+				F10C51631AD5A0AA00688882 /* GameTests.mm in Sources */,
+				F10C516B1AD5A11300688882 /* TimerTests.mm in Sources */,
+				F10C51641AD5A0AA00688882 /* PieceTests.mm in Sources */,
 				4FDBE1FA1AD4B8EF00EB54EB /* HanziMatchingTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
