@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>A87D2065-8876-423D-B627-7F09E36824A2</string>
+	<key>IDESourceControlProjectName</key>
+	<string>HanziMatching</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>2CC51E1BEB4209AB499F7A246C84B7E9A2E4DD3D</key>
+		<string>https://github.com/jacquezheng/HanziMatching.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>HanziMatching.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>2CC51E1BEB4209AB499F7A246C84B7E9A2E4DD3D</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/jacquezheng/HanziMatching.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>2CC51E1BEB4209AB499F7A246C84B7E9A2E4DD3D</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>2CC51E1BEB4209AB499F7A246C84B7E9A2E4DD3D</string>
+			<key>IDESourceControlWCCName</key>
+			<string>HanziMatching</string>
+		</dict>
+	</array>
+</dict>
+</plist>
