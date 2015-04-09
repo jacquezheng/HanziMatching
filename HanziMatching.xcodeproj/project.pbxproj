@@ -22,6 +22,17 @@
 		4FDBE1EB1AD4B8EF00EB54EB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4FDBE1EA1AD4B8EF00EB54EB /* Images.xcassets */; };
 		4FDBE1EE1AD4B8EF00EB54EB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4FDBE1EC1AD4B8EF00EB54EB /* LaunchScreen.xib */; };
 		4FDBE1FA1AD4B8EF00EB54EB /* HanziMatchingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FDBE1F91AD4B8EF00EB54EB /* HanziMatchingTests.m */; };
+<<<<<<< HEAD
+=======
+		4FDBE2181AD4C79600EB54EB /* Board.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4FDBE2151AD4C79600EB54EB /* Board.mm */; };
+		4FDBE2191AD4C79600EB54EB /* Piece.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4FDBE2171AD4C79600EB54EB /* Piece.mm */; };
+		4FDBE21D1AD59D6F00EB54EB /* Game.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4FDBE21C1AD59D6F00EB54EB /* Game.mm */; };
+		F10C51621AD5A0AA00688882 /* BoardTests.mm in Sources */ = {isa = PBXBuildFile; fileRef = F10C515F1AD5A0AA00688882 /* BoardTests.mm */; };
+		F10C51631AD5A0AA00688882 /* GameTests.mm in Sources */ = {isa = PBXBuildFile; fileRef = F10C51601AD5A0AA00688882 /* GameTests.mm */; };
+		F10C51641AD5A0AA00688882 /* PieceTests.mm in Sources */ = {isa = PBXBuildFile; fileRef = F10C51611AD5A0AA00688882 /* PieceTests.mm */; };
+		F10C51681AD5A0FA00688882 /* Timer.mm in Sources */ = {isa = PBXBuildFile; fileRef = F10C51671AD5A0FA00688882 /* Timer.mm */; };
+		F10C516B1AD5A11300688882 /* TimerTests.mm in Sources */ = {isa = PBXBuildFile; fileRef = F10C516A1AD5A11300688882 /* TimerTests.mm */; };
+>>>>>>> origin/master
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +71,21 @@
 		4FDBE1F31AD4B8EF00EB54EB /* HanziMatchingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HanziMatchingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4FDBE1F81AD4B8EF00EB54EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4FDBE1F91AD4B8EF00EB54EB /* HanziMatchingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HanziMatchingTests.m; sourceTree = "<group>"; };
+<<<<<<< HEAD
+=======
+		4FDBE2141AD4C79600EB54EB /* Board.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Board.h; path = HanziMatching/Logic/Board.h; sourceTree = "<group>"; };
+		4FDBE2151AD4C79600EB54EB /* Board.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = Board.mm; path = HanziMatching/Logic/Board.mm; sourceTree = "<group>"; };
+		4FDBE2161AD4C79600EB54EB /* Piece.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Piece.h; path = HanziMatching/Logic/Piece.h; sourceTree = "<group>"; };
+		4FDBE2171AD4C79600EB54EB /* Piece.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = Piece.mm; path = HanziMatching/Logic/Piece.mm; sourceTree = "<group>"; };
+		4FDBE21B1AD59D6F00EB54EB /* Game.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Game.h; path = HanziMatching/Logic/Game.h; sourceTree = "<group>"; };
+		4FDBE21C1AD59D6F00EB54EB /* Game.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = Game.mm; path = HanziMatching/Logic/Game.mm; sourceTree = "<group>"; };
+		F10C515F1AD5A0AA00688882 /* BoardTests.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = BoardTests.mm; path = ../../../Desktop/HanziMatching/HanziMatchingTests/BoardTests.mm; sourceTree = "<group>"; };
+		F10C51601AD5A0AA00688882 /* GameTests.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = GameTests.mm; path = ../../../Desktop/HanziMatching/HanziMatchingTests/GameTests.mm; sourceTree = "<group>"; };
+		F10C51611AD5A0AA00688882 /* PieceTests.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = PieceTests.mm; path = ../../../Desktop/HanziMatching/HanziMatchingTests/PieceTests.mm; sourceTree = "<group>"; };
+		F10C51661AD5A0FA00688882 /* Timer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Timer.h; path = ../../../Desktop/HanziMatching/HanziMatching/Timer.h; sourceTree = "<group>"; };
+		F10C51671AD5A0FA00688882 /* Timer.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = Timer.mm; path = ../../../Desktop/HanziMatching/HanziMatching/Timer.mm; sourceTree = "<group>"; };
+		F10C516A1AD5A11300688882 /* TimerTests.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = TimerTests.mm; path = ../../../Desktop/HanziMatching/HanziMatchingTests/TimerTests.mm; sourceTree = "<group>"; };
+>>>>>>> origin/master
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,8 +151,13 @@
 		4FDBE1DC1AD4B8EF00EB54EB /* HanziMatching */ = {
 			isa = PBXGroup;
 			children = (
+<<<<<<< HEAD
 				4FDB90291AD6023A00248B0F /* Model */,
 				4FDB90281AD6022A00248B0F /* Controller */,
+=======
+				F10C51651AD5A0E900688882 /* Tools */,
+				4FDBE21A1AD4C79F00EB54EB /* Logic */,
+>>>>>>> origin/master
 				4FDBE2041AD4BA0E00EB54EB /* Assets */,
 				4FDBE1DD1AD4B8EF00EB54EB /* Supporting Files */,
 				4FDBE1E11AD4B8EF00EB54EB /* AppDelegate.h */,
@@ -150,6 +181,8 @@
 		4FDBE1F61AD4B8EF00EB54EB /* HanziMatchingTests */ = {
 			isa = PBXGroup;
 			children = (
+				F10C51691AD5A10000688882 /* ToolsTests */,
+				F10C515E1AD5A06A00688882 /* LogicTests */,
 				4FDBE1F91AD4B8EF00EB54EB /* HanziMatchingTests.m */,
 				4FDBE1F71AD4B8EF00EB54EB /* Supporting Files */,
 			);
@@ -175,6 +208,64 @@
 			name = Assets;
 			sourceTree = "<group>";
 		};
+<<<<<<< HEAD
+=======
+		4FDBE2051AD4BA1400EB54EB /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Fonts;
+			sourceTree = "<group>";
+		};
+		4FDBE2061AD4BA1A00EB54EB /* Images */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		4FDBE21A1AD4C79F00EB54EB /* Logic */ = {
+			isa = PBXGroup;
+			children = (
+				4FDBE2141AD4C79600EB54EB /* Board.h */,
+				4FDBE2151AD4C79600EB54EB /* Board.mm */,
+				4FDBE21B1AD59D6F00EB54EB /* Game.h */,
+				4FDBE21C1AD59D6F00EB54EB /* Game.mm */,
+				4FDBE2161AD4C79600EB54EB /* Piece.h */,
+				4FDBE2171AD4C79600EB54EB /* Piece.mm */,
+			);
+			name = Logic;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		F10C515E1AD5A06A00688882 /* LogicTests */ = {
+			isa = PBXGroup;
+			children = (
+				F10C515F1AD5A0AA00688882 /* BoardTests.mm */,
+				F10C51601AD5A0AA00688882 /* GameTests.mm */,
+				F10C51611AD5A0AA00688882 /* PieceTests.mm */,
+			);
+			name = LogicTests;
+			sourceTree = "<group>";
+		};
+		F10C51651AD5A0E900688882 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				F10C51661AD5A0FA00688882 /* Timer.h */,
+				F10C51671AD5A0FA00688882 /* Timer.mm */,
+			);
+			name = Tools;
+			sourceTree = "<group>";
+		};
+		F10C51691AD5A10000688882 /* ToolsTests */ = {
+			isa = PBXGroup;
+			children = (
+				F10C516A1AD5A11300688882 /* TimerTests.mm */,
+			);
+			name = ToolsTests;
+			sourceTree = "<group>";
+		};
+>>>>>>> origin/master
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -285,7 +376,11 @@
 				4FDB90371AD608A900248B0F /* Pair.m in Sources */,
 				4FDBE1E31AD4B8EF00EB54EB /* AppDelegate.m in Sources */,
 				4FDBE1E01AD4B8EF00EB54EB /* main.m in Sources */,
+<<<<<<< HEAD
 				4FDB90311AD6024700248B0F /* Game.mm in Sources */,
+=======
+				F10C51681AD5A0FA00688882 /* Timer.mm in Sources */,
+>>>>>>> origin/master
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,6 +388,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F10C51621AD5A0AA00688882 /* BoardTests.mm in Sources */,
+				F10C51631AD5A0AA00688882 /* GameTests.mm in Sources */,
+				F10C516B1AD5A11300688882 /* TimerTests.mm in Sources */,
+				F10C51641AD5A0AA00688882 /* PieceTests.mm in Sources */,
 				4FDBE1FA1AD4B8EF00EB54EB /* HanziMatchingTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
