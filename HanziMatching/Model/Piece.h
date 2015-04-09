@@ -8,16 +8,17 @@
 
 #import <Foundation/Foundation.h>
 
+//Piece represent a block that can be cancelled once its matching is found
 @interface Piece : NSObject
 
-// the name of the Hanzi character (pronounciation)
+//the name of the Hanzi character (pronounciation)
 @property NSString *name;
-// the path of the picture
+//the path of the picture
 @property NSString *picPath;
 
-// constructor
+//constructor
 -(id)init;
 -(id)initWithName:(NSString*)name
-              Pic:(NSString*)picPath;
+          PicPath:(NSString*)picPath;
 
 @end

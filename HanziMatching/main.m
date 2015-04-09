@@ -18,8 +18,11 @@ int main(int argc, char * argv[]) {
         return UIApplicationMain(argc, argv, nil, NSStringFromClass([AppDelegate class]));
     }*/
     
-    NSLog (@"Hello, World!");
+    //NSLog (@"Hello, World!");
     Board* myBoard = [[Board alloc] initWithSize:3];
+    //Piece* mypiece = [[Piece alloc] initWithName:@"chi1" PicPath:@"this is a path"];
     
+    NSLog (@"i am empty");
+
     return 0;
 }

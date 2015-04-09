@@ -7,16 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4FDB90271AD6022600248B0F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FDB90261AD6022600248B0F /* ViewController.m */; };
+		4FDB90301AD6024700248B0F /* Board.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4FDB902B1AD6024700248B0F /* Board.mm */; };
+		4FDB90311AD6024700248B0F /* Game.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4FDB902D1AD6024700248B0F /* Game.mm */; };
+		4FDB90321AD6024700248B0F /* Piece.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4FDB902F1AD6024700248B0F /* Piece.mm */; };
+		4FDB90371AD608A900248B0F /* Pair.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FDB90361AD608A900248B0F /* Pair.m */; };
+		4FDB903C1AD626E700248B0F /* chi1.png in Resources */ = {isa = PBXBuildFile; fileRef = 4FDB90381AD626E700248B0F /* chi1.png */; };
+		4FDB903D1AD626E700248B0F /* liang3.png in Resources */ = {isa = PBXBuildFile; fileRef = 4FDB90391AD626E700248B0F /* liang3.png */; };
+		4FDB903E1AD626E700248B0F /* mei4.png in Resources */ = {isa = PBXBuildFile; fileRef = 4FDB903A1AD626E700248B0F /* mei4.png */; };
+		4FDB903F1AD626E700248B0F /* wang3.png in Resources */ = {isa = PBXBuildFile; fileRef = 4FDB903B1AD626E700248B0F /* wang3.png */; };
 		4FDBE1E01AD4B8EF00EB54EB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FDBE1DF1AD4B8EF00EB54EB /* main.m */; };
 		4FDBE1E31AD4B8EF00EB54EB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FDBE1E21AD4B8EF00EB54EB /* AppDelegate.m */; };
-		4FDBE1E61AD4B8EF00EB54EB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FDBE1E51AD4B8EF00EB54EB /* ViewController.m */; };
 		4FDBE1E91AD4B8EF00EB54EB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4FDBE1E71AD4B8EF00EB54EB /* Main.storyboard */; };
 		4FDBE1EB1AD4B8EF00EB54EB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4FDBE1EA1AD4B8EF00EB54EB /* Images.xcassets */; };
 		4FDBE1EE1AD4B8EF00EB54EB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4FDBE1EC1AD4B8EF00EB54EB /* LaunchScreen.xib */; };
 		4FDBE1FA1AD4B8EF00EB54EB /* HanziMatchingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FDBE1F91AD4B8EF00EB54EB /* HanziMatchingTests.m */; };
-		4FDBE2181AD4C79600EB54EB /* Board.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4FDBE2151AD4C79600EB54EB /* Board.mm */; };
-		4FDBE2191AD4C79600EB54EB /* Piece.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4FDBE2171AD4C79600EB54EB /* Piece.mm */; };
-		4FDBE21D1AD59D6F00EB54EB /* Game.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4FDBE21C1AD59D6F00EB54EB /* Game.mm */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,25 +35,31 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4FDB90251AD6022600248B0F /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = Controller/ViewController.h; sourceTree = "<group>"; };
+		4FDB90261AD6022600248B0F /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = Controller/ViewController.m; sourceTree = "<group>"; };
+		4FDB902A1AD6024700248B0F /* Board.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Board.h; path = Model/Board.h; sourceTree = "<group>"; };
+		4FDB902B1AD6024700248B0F /* Board.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = Board.mm; path = Model/Board.mm; sourceTree = "<group>"; };
+		4FDB902C1AD6024700248B0F /* Game.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Game.h; path = Model/Game.h; sourceTree = "<group>"; };
+		4FDB902D1AD6024700248B0F /* Game.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = Game.mm; path = Model/Game.mm; sourceTree = "<group>"; };
+		4FDB902E1AD6024700248B0F /* Piece.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Piece.h; path = Model/Piece.h; sourceTree = "<group>"; };
+		4FDB902F1AD6024700248B0F /* Piece.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = Piece.mm; path = Model/Piece.mm; sourceTree = "<group>"; };
+		4FDB90331AD6087100248B0F /* Pair.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Pair.h; path = Model/Pair.h; sourceTree = "<group>"; };
+		4FDB90361AD608A900248B0F /* Pair.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Pair.m; path = Model/Pair.m; sourceTree = "<group>"; };
+		4FDB90381AD626E700248B0F /* chi1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = chi1.png; path = Assets/chi1.png; sourceTree = "<group>"; };
+		4FDB90391AD626E700248B0F /* liang3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = liang3.png; path = Assets/liang3.png; sourceTree = "<group>"; };
+		4FDB903A1AD626E700248B0F /* mei4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = mei4.png; path = Assets/mei4.png; sourceTree = "<group>"; };
+		4FDB903B1AD626E700248B0F /* wang3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = wang3.png; path = Assets/wang3.png; sourceTree = "<group>"; };
 		4FDBE1DA1AD4B8EF00EB54EB /* HanziMatching.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HanziMatching.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4FDBE1DE1AD4B8EF00EB54EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4FDBE1DF1AD4B8EF00EB54EB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4FDBE1E11AD4B8EF00EB54EB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		4FDBE1E21AD4B8EF00EB54EB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		4FDBE1E41AD4B8EF00EB54EB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		4FDBE1E51AD4B8EF00EB54EB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		4FDBE1E81AD4B8EF00EB54EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4FDBE1EA1AD4B8EF00EB54EB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		4FDBE1ED1AD4B8EF00EB54EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		4FDBE1F31AD4B8EF00EB54EB /* HanziMatchingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HanziMatchingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4FDBE1F81AD4B8EF00EB54EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4FDBE1F91AD4B8EF00EB54EB /* HanziMatchingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HanziMatchingTests.m; sourceTree = "<group>"; };
-		4FDBE2141AD4C79600EB54EB /* Board.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Board.h; path = HanziMatching/Logic/Board.h; sourceTree = "<group>"; };
-		4FDBE2151AD4C79600EB54EB /* Board.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = Board.mm; path = HanziMatching/Logic/Board.mm; sourceTree = "<group>"; };
-		4FDBE2161AD4C79600EB54EB /* Piece.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Piece.h; path = HanziMatching/Logic/Piece.h; sourceTree = "<group>"; };
-		4FDBE2171AD4C79600EB54EB /* Piece.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = Piece.mm; path = HanziMatching/Logic/Piece.mm; sourceTree = "<group>"; };
-		4FDBE21B1AD59D6F00EB54EB /* Game.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Game.h; path = HanziMatching/Logic/Game.h; sourceTree = "<group>"; };
-		4FDBE21C1AD59D6F00EB54EB /* Game.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = Game.mm; path = HanziMatching/Logic/Game.mm; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +80,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4FDB90281AD6022A00248B0F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				4FDB90261AD6022600248B0F /* ViewController.m */,
+				4FDB90251AD6022600248B0F /* ViewController.h */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		4FDB90291AD6023A00248B0F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4FDB902A1AD6024700248B0F /* Board.h */,
+				4FDB902B1AD6024700248B0F /* Board.mm */,
+				4FDB90331AD6087100248B0F /* Pair.h */,
+				4FDB90361AD608A900248B0F /* Pair.m */,
+				4FDB902C1AD6024700248B0F /* Game.h */,
+				4FDB902D1AD6024700248B0F /* Game.mm */,
+				4FDB902E1AD6024700248B0F /* Piece.h */,
+				4FDB902F1AD6024700248B0F /* Piece.mm */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
 		4FDBE1D11AD4B8EF00EB54EB = {
 			isa = PBXGroup;
 			children = (
@@ -90,13 +125,12 @@
 		4FDBE1DC1AD4B8EF00EB54EB /* HanziMatching */ = {
 			isa = PBXGroup;
 			children = (
-				4FDBE21A1AD4C79F00EB54EB /* Logic */,
+				4FDB90291AD6023A00248B0F /* Model */,
+				4FDB90281AD6022A00248B0F /* Controller */,
 				4FDBE2041AD4BA0E00EB54EB /* Assets */,
 				4FDBE1DD1AD4B8EF00EB54EB /* Supporting Files */,
 				4FDBE1E11AD4B8EF00EB54EB /* AppDelegate.h */,
 				4FDBE1E21AD4B8EF00EB54EB /* AppDelegate.m */,
-				4FDBE1E41AD4B8EF00EB54EB /* ViewController.h */,
-				4FDBE1E51AD4B8EF00EB54EB /* ViewController.m */,
 				4FDBE1E71AD4B8EF00EB54EB /* Main.storyboard */,
 				4FDBE1EA1AD4B8EF00EB54EB /* Images.xcassets */,
 				4FDBE1EC1AD4B8EF00EB54EB /* LaunchScreen.xib */,
@@ -133,38 +167,12 @@
 		4FDBE2041AD4BA0E00EB54EB /* Assets */ = {
 			isa = PBXGroup;
 			children = (
-				4FDBE2061AD4BA1A00EB54EB /* Images */,
-				4FDBE2051AD4BA1400EB54EB /* Fonts */,
+				4FDB90381AD626E700248B0F /* chi1.png */,
+				4FDB90391AD626E700248B0F /* liang3.png */,
+				4FDB903A1AD626E700248B0F /* mei4.png */,
+				4FDB903B1AD626E700248B0F /* wang3.png */,
 			);
 			name = Assets;
-			sourceTree = "<group>";
-		};
-		4FDBE2051AD4BA1400EB54EB /* Fonts */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Fonts;
-			sourceTree = "<group>";
-		};
-		4FDBE2061AD4BA1A00EB54EB /* Images */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Images;
-			sourceTree = "<group>";
-		};
-		4FDBE21A1AD4C79F00EB54EB /* Logic */ = {
-			isa = PBXGroup;
-			children = (
-				4FDBE2141AD4C79600EB54EB /* Board.h */,
-				4FDBE2151AD4C79600EB54EB /* Board.mm */,
-				4FDBE21B1AD59D6F00EB54EB /* Game.h */,
-				4FDBE21C1AD59D6F00EB54EB /* Game.mm */,
-				4FDBE2161AD4C79600EB54EB /* Piece.h */,
-				4FDBE2171AD4C79600EB54EB /* Piece.mm */,
-			);
-			name = Logic;
-			path = ..;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -247,9 +255,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4FDB903C1AD626E700248B0F /* chi1.png in Resources */,
+				4FDB903D1AD626E700248B0F /* liang3.png in Resources */,
+				4FDB903E1AD626E700248B0F /* mei4.png in Resources */,
 				4FDBE1E91AD4B8EF00EB54EB /* Main.storyboard in Resources */,
 				4FDBE1EE1AD4B8EF00EB54EB /* LaunchScreen.xib in Resources */,
 				4FDBE1EB1AD4B8EF00EB54EB /* Images.xcassets in Resources */,
+				4FDB903F1AD626E700248B0F /* wang3.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,12 +279,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4FDBE2181AD4C79600EB54EB /* Board.mm in Sources */,
-				4FDBE1E61AD4B8EF00EB54EB /* ViewController.m in Sources */,
-				4FDBE2191AD4C79600EB54EB /* Piece.mm in Sources */,
-				4FDBE21D1AD59D6F00EB54EB /* Game.mm in Sources */,
+				4FDB90321AD6024700248B0F /* Piece.mm in Sources */,
+				4FDB90301AD6024700248B0F /* Board.mm in Sources */,
+				4FDB90271AD6022600248B0F /* ViewController.m in Sources */,
+				4FDB90371AD608A900248B0F /* Pair.m in Sources */,
 				4FDBE1E31AD4B8EF00EB54EB /* AppDelegate.m in Sources */,
 				4FDBE1E01AD4B8EF00EB54EB /* main.m in Sources */,
+				4FDB90311AD6024700248B0F /* Game.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

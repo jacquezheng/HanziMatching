@@ -16,7 +16,7 @@
 }
 
 -(id) initWithName:(NSString *)name
-               Pic:(NSString*)picPath{
+           PicPath:(NSString*)picPath{
     self = [super init];
     if (self) {
         self.name = name;
