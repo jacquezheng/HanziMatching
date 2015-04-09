@@ -33,6 +33,8 @@
 // check if a pair A is in a NSSet B
 -(bool) isPair:(Pair*)A InSet:(NSSet*)B;
 
+-(void) removeX:(int)x Y:(int)y;
+
 // check if 
 -(bool) isUserWin;
 
