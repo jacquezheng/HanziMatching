@@ -8,6 +8,7 @@
 
 #import <Foundation/Foundation.h>
 #import "Piece.h"
+#import "Pair.h"
 
 //Board that contains all the game pieces
 @interface Board : NSObject
@@ -34,5 +35,8 @@
 
 //check if all the pieces on the board are removed
 -(BOOL) isEmpty;
+
+//get piece at position pair p
+-(Piece*)getPieceAtPair:(Pair*)p;
 
 @end

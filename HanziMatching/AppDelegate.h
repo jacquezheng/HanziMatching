@@ -2,8 +2,8 @@
 //  AppDelegate.h
 //  HanziMatching
 //
-//  Created by Hao Zheng on 4/7/15.
-//  Copyright (c) 2015 Hao Zheng. All rights reserved.
+//  Created by 黄 薏尔 on 4/8/15.
+//  Copyright (c) 2015 HanziMatching. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>

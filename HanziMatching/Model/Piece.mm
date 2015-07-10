@@ -1,5 +1,5 @@
 //
-//  Piece.m
+//  Piece.mm
 //  HanziMatching
 //
 //  Created by Hao Zheng on 4/7/15.
@@ -10,13 +10,15 @@
 
 @implementation Piece
 
--(id) init{
+-(id) init
+{
     self = [super init];
     return self;
 }
 
 -(id) initWithName:(NSString *)name
-           PicPath:(NSString*)picPath{
+           PicPath:(NSString*)picPath
+{
     self = [super init];
     if (self) {
         self.name = name;
@@ -24,4 +26,5 @@
     }
     return self;
 }
+
 @end

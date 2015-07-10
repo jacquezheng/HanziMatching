@@ -8,8 +8,8 @@
 
 #import <Foundation/Foundation.h>
 
-// Pair class with defines a pair data structure
-@interface Pair : NSObject
+// Pair class which defines a pair data structure
+@interface Pair : NSObject<NSCopying>
 
 @property int first;
 @property int second;
@@ -17,5 +17,6 @@
 // constructor
 -(id)init;
 -(id)initWithFirst:(int)a Second:(int)b;
-
+-(bool)isSame:(Pair*)p;
+-(bool)isEqual:(Pair*)p;
 @end

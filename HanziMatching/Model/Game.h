@@ -9,7 +9,11 @@
 #import "Board.h"
 #import "Pair.h"
 #import "Timer.h"
-#include <utility>
+#import "Tool.h"
+#import "TimeAdder.h"
+#import "Hint.h"
+#import "Bomb.h"
+#import "Shuffle.h"
 
 // Game interface, contains the game logic
 @interface Game : NSObject
@@ -17,26 +21,54 @@
 @property Board* board;
 @property Timer* timer;
 @property bool win;
+@property int numCombo;
+@property int score;
+@property int timeStamp;
+@property NSMutableArray *legalMatches;
+@property Bomb *bomb;
+@property TimeAdder *timeAdder;
+@property Hint *hint;
+@property Shuffle* shuffler;
 
-// constructure that takes in an integer as difficulty
+
+// Constructor that takes in an integer as difficulty level
 - (id) init:(int)difficulty;
 
-// destructor
+// Destructor
 - (void) dealloc;
 
-// get all direct path from (x,y) and store in T
--(void) directPathFromX:(int)x FromY:(int)y StoreIn:(NSMutableSet**)T;
+// Get all direct path from (x,y) and store in T
+- (void) directPathFromX:(int)x FromY:(int)y StoreIn:(NSMutableSet**)T FirstTime:(bool)first;
 
-// check if the match from (x, y) to (a, b) is legal
--(bool) legalMatchFromX:(int)x FromY:(int)y ToA:(int)a ToB:(int)b;
+// Check if the match from source (x, y) to destination (a, b) on the grid is legal
+- (bool) legalMatchPieceA:(Pair*)a AndB:(Pair*)b;
 
-// check if a pair A is in a NSSet B
--(bool) isPair:(Pair*)A InSet:(NSSet*)B;
+// Check if a pair A is in a NSSet B
+- (bool) isPair:(Pair*)A InSet:(NSMutableSet*)B;
 
--(void) removeX:(int)x Y:(int)y;
+// Remove the piece at (x, y)
+- (void) removePieceA:(Pair*)a AndB:(Pair*)b;
 
-// check if 
--(bool) isUserWin;
+// Check if the user wins
+- (bool) isUserWin;
+
+// Update total score of current game according to performance in this matching
+- (void) updateScore;
+
+// Update the number of combo according to performance in this matching
+- (void) updateCombo;
+
+// Try to match A and B according to user's selection
+- (void) matchPieceA:(Pair*)a AndB:(Pair*)b;
+
+// Update the array of legal matches
+- (void) updateLegalMatches;
+
+// At the end of each game, calculate stars obtained based on maximum possible score
+- (int) calculateStars;
+
+- (NSMutableSet*) intersect:(NSMutableSet*)a AndB:(NSMutableSet*)b;
+- (NSMutableArray*) getPathFromA:(Pair*)a AndB:(Pair*)b;
 
 @end
 

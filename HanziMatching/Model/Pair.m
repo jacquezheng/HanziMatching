@@ -29,4 +29,13 @@
     return self;
 }
 
+-(bool)isSame:(Pair*)p
+{
+    return self.first==p.first && self.second==p.second;
+}
+
+-(bool)isEqual:(Pair*)p
+{
+    return self.first==p.first && self.second==p.second;
+}
 @end

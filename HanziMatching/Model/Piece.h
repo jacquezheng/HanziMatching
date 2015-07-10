@@ -7,6 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <SpriteKit/SpriteKit.h>
 
 //Piece represent a block that can be cancelled once its matching is found
 @interface Piece : NSObject
@@ -15,6 +16,7 @@
 @property NSString *name;
 //the path of the picture
 @property NSString *picPath;
+@property SKSpriteNode *sprite;
 
 //constructor
 -(id)init;

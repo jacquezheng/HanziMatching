@@ -50,18 +50,20 @@
         }
         else
         {
-            numOfPieces = size*(size-1);
+            numOfPieces = size*size-1;
         }
         
         // init piece array with numOfPieces pieces
         self.pieces = [[NSMutableArray alloc] initWithCapacity:numOfPieces];
         NSArray* names = [NSArray arrayWithObjects: @"chi1", @"mei4", @"wang3", @"liang3",nil];
-        for(int i = 0; i < numOfPieces; i++)
+        for(int i = 0; i < numOfPieces; i+=2)
         {
             NSString *name = [names objectAtIndex:arc4random_uniform(4)];
             NSString *path = [NSString stringWithFormat: @"../Assets/%@.png", name];
             Piece* currPiece = [[Piece alloc] initWithName:name PicPath:path];
+            Piece* currPiece2 = [[Piece alloc] initWithName:name PicPath:path];
             [self.pieces addObject:currPiece];
+            [self.pieces addObject:currPiece2];
         }
         
         //shuffle the pieces array
@@ -89,14 +91,14 @@
     // traverse the entire grid to place pieces
     for (int i = 1; i < self.size-1; i++)
     {
-        // if this row is valid
-        if ( ((i+1)<=self.size/2) || (self.size-i)<=self.size/2){
-            for (int j = 1; j < self.size-1; j++)
-            {
-                Piece* currPiece = [self.pieces objectAtIndex:idx];
-                [self placePiece:currPiece AtX:i Y:j];
-                idx++;
+        for (int j = 1; j < self.size-1; j++)
+        {
+            if(self.size%2 != 0 && i == j && i == self.size/2){
+                continue;
             }
+            Piece* currPiece = [self.pieces objectAtIndex:idx];
+            [self placePiece:currPiece AtX:i Y:j];
+            idx++;
         }
     }
 }
@@ -131,5 +133,12 @@
     self.grid = nil;
     self.pieces = nil;
 }
+
+
+-(Piece*)getPieceAtPair:(Pair*)p
+{
+    return [[self.grid objectAtIndex: p.first] objectAtIndex:p.second ];
+}
+
 
 @end
